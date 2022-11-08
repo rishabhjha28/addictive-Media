@@ -11,10 +11,6 @@ app.use(cors())
 app.use("/uploads",express.static("./uploads"))
 app.use('/data',dataRouter)
 
-app.get('/',(req,res)=>{
-    res.json({name:'mfklasmlf'})
-})
-
 if(process.env.NODE_ENV=="production"){
     app.use(express.static('client/build'))
     const path = require('path')
