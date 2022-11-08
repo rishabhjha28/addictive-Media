@@ -1,0 +1,51 @@
+.frontpage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+}
+.searchList{
+    display: flex;
+    flex-direction: column;
+    width: 300px;;
+}
+.list{
+    max-height: 300px;
+    overflow-y: auto;
+}
+.element{
+    width: inherit;
+    cursor: pointer;
+    padding: 5px;
+}
+.element:hover{
+    background-color: lightgray;
+}
+button{
+    padding: 5px;
+}
+th{
+    width: 200px;
+    border-right: 1px solid black;
+    height: 20px;
+}
+td{
+    border-right: 1px solid black;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
